@@ -1,0 +1,31 @@
+{
+  "name": "rescuepost-ng",
+  "version": "1.0.0",
+  "description": "Bilingual (Hausa/English) Emergency & Fire Dispatch PWA powered by NIPOST Digital Postcode API, Naija Speech ASR, and Google Gemini",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "nipost",
+    "emergency-dispatch",
+    "hausa-asr",
+    "gemini-ai",
+    "pwa",
+    "fire-service",
+    "nigeria",
+    "3mtt"
+  ],
+  "author": "RescuePost NG Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.1.0",
+    "form-data": "^4.0.1",
+    "multer": "^1.4.5-lts.1"
+  }
+}
